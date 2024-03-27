@@ -22,6 +22,24 @@ node --version
 
 ## 4. Clone your project from Github
 
+To clone private repo
+ - Create public/private rsa key pair
+
+```sript
+ssh-keygen -t rsa -b 2048
+```
+
+
+```sript
+cat home/ubuntu/.ssh/id_rsa.pub
+```
+
+ - Add it into github SSH Keys
+
+![image](https://github.com/Rahul-Prasad-07/Aws-Deployment/assets/99068989/17069fc0-dc72-4093-a0f6-c97f1830bc89)
+
+- Then clone repo by this simple command
+
 ```script
 git clone https://github.com/yourusername/nodeProject
 ```
